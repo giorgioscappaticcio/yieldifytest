@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Sniglet);
+
+$green : #3C8E77;
+$caccagreen: #D2DB9A;
+$blue: #1D2E4C;
+
+* {
+    border-sizing: border-box;
+    -webkit-border-sizing: border-box;
+    -moz-border-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: $caccagreen;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 1000px;
+  margin: 20px auto;
+} 
+
+.buttonCont {
+  width: 100%;
+  text-align: center;
+
+    label {
+      margin-left: 40px;
+    }
+    input {
+      padding: 10px;
+      border-color: 1px solid;
+      width: 50px;
+    }
+
+    button {
+      padding: 10px;
+      border: 1px solid #3C8E77;
+      background-color: $blue;
+      color: white;
+      cursor: pointer;
+
+        &:hover {
+          background-color: $green;
+        }
+    }
+
+}
+
+.carddeck {
+  float:left;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: $green;
+
+    h2 {
+      font-family: 'Sniglet', cursive;
+      color: white;
+      text-align: center;
+      margin: 10px;
+    }
+
+    ul {
+      list-style: none;
+      float: left;
+      width: 100%;
+      margin-left: -10px;
+
+        li {
+          display: inline-block;
+          margin-left: 10px;
+          background-color: rgb(221, 221, 221);
+          text-align: center;
+          padding: 25px 6px;
+          margin-top: 10px;
+          background-color: #1A5D65;
+          border: 1px solid #9BC585;
+          color: #D2DB9A;
+        }
+    }
+}
+
